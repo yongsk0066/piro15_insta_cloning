@@ -64,3 +64,27 @@ main > div:nth-child(odd){
   padding: 0.3rem 0;
   border-radius: 5px;
 }
+
+/* story */
+
+.story__container {
+  padding: 1rem;
+  display: flex;
+  overflow: scroll;
+}
+
+.story__content {
+  margin-right: .5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.story__img > img{
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: var(--main-border);
+  padding:3px;
+}
